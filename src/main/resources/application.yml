@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: BasketService
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/basketdb
+
+basket:
+  client:
+    platzi: https://api.escuelajs.co/api/v1/
+
+server:
+  port: 8080
